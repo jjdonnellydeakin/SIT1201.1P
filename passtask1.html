@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>My SIT120 Pass Task 1</title>
+    <link rel="stylesheet" href="pt1style.css">
+    <style>
+       p {
+            color: #695643;
+            font-size: 18px;
+            font-family: "lato";
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        ul.tabs {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        ul.tabs li {
+            display: inline;
+            padding-right: 20px;
+        }
+
+        ul.tabs li:last-child {
+            padding-right: 0;
+        }
+
+        ul.tabs li a {
+            text-decoration: none;
+            color: #604430;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #938276;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        ul.tabs li a:hover {
+            background-color: #766050;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #efe9e3; padding: 20px; text-align: center;">
+        <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #d2bfb2; background-color: #766050; padding: 36px;">WELCOME TO MY WEB PAGE!</h1>
+        <h3 id="aboutme" class="section-header" style="text-decoration: underline;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #604430; background-color: #938276; padding: 15px;">About me:</h3>
+        <ul class="tabs">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#myprosandcons">My Pros and Cons</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+        <p>
+            Hello! My name is Jaimee Donnelly and I am currently studying a Bachelor of IT, majoring in CyberSecruity!
+        </p>
+        <img src="this is my profile.jpg" alt="Image of Jaimee Donnelly">
+        <p>
+            I love being outdoors and around nature. I currently have one dog and one cat, they are my whole world. Hopefully you enjoy my webpage, as you can tell I love neutral colours and objects that are aethestically pleasing to the naked eye.
+        </p>
+    </header>
+
+    <main style="background-color: #efe9e3; padding: 20px; text-align: center;">
+        <h2 id="myprosandcons" class="section-header" style="text-decoration: underline;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #604430; background-color: #938276; padding: 15px;">My Pros and Cons:</h2>
+        <p>
+            Here are some of my pros and cons, I also was playing with the different fonts! I am so far loving learning about IT and how it can affect the future!
+        </p>
+        <table>
+            <tr>
+                <th>PROS</th>
+                <th>CONS</th>
+            </tr>
+            <tr>
+                <td>I am bubbly</td>
+                <td>I can get overwhelmed</td>
+            </tr>
+            <tr>
+                <td>I am adventerous</td>
+                <td>I tend to overthink</td>
+            </tr>
+            <tr>
+                <td>I am Funny</td>
+                <td>I live too far away from the city</td>
+            </tr>
+        </table>
+
+        <h2 id="contactme" class="section-header" style="text-decoration: underline;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #604430; background-color: #938276; padding: 15px;">Contact Me:</h2>
+        <form>
+            <p>
+                Feel free to contact me if you have any questions about me or my website!
+            </p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>© Created by Jaimee Donnelly</p>
+    </footer>
+</body>
+</html>
